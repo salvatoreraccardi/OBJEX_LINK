@@ -2,6 +2,13 @@
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/1.jpg)
 OBJEX Link is a modular IoT board. Is designed for every user who needs compact hardware for your smart projects. The form factor of OBJEX Link is meant to fit several applications. With modules, the user can customize easily the hardware for your projects.
 
+Applications:
+- IoT Button
+- Weather station
+- Smart Spotlight
+- Camera security
+- Motor driver
+
 **Todo**
 - [X] PWR test
 - [X] upload firmware
@@ -12,6 +19,8 @@ OBJEX Link is a modular IoT board. Is designed for every user who needs compact 
 - [ ] 3D case for BTN module
 - [ ] 3D case for HDC1080 module
 
+
+### Ultra Slim Form Factor
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/4.jpg)
 
 ### Features Rev1.0
@@ -36,6 +45,12 @@ OBJEX Link is a modular IoT board. Is designed for every user who needs compact 
 
 ### SlimStack
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3.jpg)
+
+### Why use OBJEX Link and not another product like Arduino?
+OBJEX Link was designed to develop smart devices and not for prototyping as you can see there are no GPIO connectors or stuff like that. With external modules, you can decide which device will become OBJEX Link, like a weather station, smart motor driver, Smart button, etc.
+
+### OBJEX Link is open source?
+All modules are open source in this way every user can design your module for a specific application. Also, all 3D projects designed for OBJEX LINK are open source.
 
 ### Sponsor
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/pcbway.png)
