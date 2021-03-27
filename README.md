@@ -46,6 +46,8 @@ Applications:
 ### SlimStack
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3.jpg)
 
+# FAQ
+
 ### Why use OBJEX Link and not another product like Arduino?
 OBJEX Link was designed to develop smart devices and not for prototyping as you can see there are no GPIO connectors or stuff like that. With external modules, you can decide which device will become OBJEX Link, like a weather station, smart motor driver, Smart button, etc.
 
