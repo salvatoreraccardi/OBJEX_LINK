@@ -15,7 +15,10 @@ OBJEX Link is a modular IoT board. Is designed for every user who needs compact 
 - Battery LVL sens(Resistors)
 - USB-C status(Resistors)
 
+*Compatible modules: 2xM0(10x20mm) or 1xM1(20x20mm)*
+
 ### Modules
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2.jpg)
 
+### SlimStack
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3.jpg)
