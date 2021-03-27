@@ -3,9 +3,9 @@
 OBJEX Link is a modular IoT board. Is designed for every user who needs compact hardware for your smart projects. The form factor of OBJEX Link is meant to fit several applications. With modules, the user can customize easily the hardware for your projects.
 
 **Todo**
-- [] Antenna tuning 
-- [] 3D case for BTN module
-- [] 3D case for HDC1080 module
+- [ ] Antenna tuning 
+- [ ] 3D case for BTN module
+- [ ] 3D case for HDC1080 module
 
 ### Features Rev1.0
 
