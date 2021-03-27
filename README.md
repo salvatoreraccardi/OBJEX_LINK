@@ -12,6 +12,8 @@ OBJEX Link is a modular IoT board. Is designed for every user who needs compact 
 - [ ] 3D case for BTN module
 - [ ] 3D case for HDC1080 module
 
+![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/4.jpg)
+
 ### Features Rev1.0
 
 - Microcontroller(ESP32-PICO-D4)
