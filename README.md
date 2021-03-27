@@ -41,6 +41,10 @@ Applications:
 ### Modules
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2.jpg)
 
+I have developed two types of modules to get the maximum hardware customization. In this way, it is possible to add two M0-type modules and one M1 module only.
+- M0(10x20mm)(5V/3V3)
+- M1(20x20mm)(5V/3V3)
+
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/5.jpg)
 
 ### SlimStack
