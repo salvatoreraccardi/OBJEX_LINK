@@ -32,6 +32,8 @@ OBJEX Link is a modular IoT board. Is designed for every user who needs compact 
 ### Modules
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2.jpg)
 
+![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/5.jpg)
+
 ### SlimStack
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3.jpg)
 
