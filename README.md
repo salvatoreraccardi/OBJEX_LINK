@@ -4,6 +4,17 @@ OBJEX Link is a modular IoT board. Is designed for every user who needs compact 
 
 ### Features Rev1.0
 
+- Microcontroller(ESP32-PICO-D4)
+- Antenna 2.4GHz(WiFi and Bluetooth)
+- Serial bridge(CP2104)
+- Battery manager(MCP73833T)
+- LDO(5V To 3V3 - MAX 1.5A)
+- Slimstack connectors
+- ESD Protection(VBUS, D+ and D-)
+- USB-C
+- Battery LVL sens(Resistors)
+- USB-C status(Resistors)
+
 ### Modules
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2.jpg)
 
