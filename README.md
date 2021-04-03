@@ -22,7 +22,7 @@ Applications:
 - [X] 3D case for BTN module
 - [X] 3D case for HDC1080 module
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=_4CofqktS38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 https://www.youtube.com/watch?v=_4CofqktS38
 
