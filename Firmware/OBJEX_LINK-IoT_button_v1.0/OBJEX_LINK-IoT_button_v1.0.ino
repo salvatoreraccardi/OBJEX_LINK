@@ -3,7 +3,6 @@ void setup(){
   Serial.begin(115200);
   
   // BTN MODULE LEDs
-  //pinMode(23, OUTPUT);
   ledcSetup(0, 5000, 8);
   ledcAttachPin(23, 0);
 
@@ -36,7 +35,6 @@ void print_wakeup_reason(){
   
   // Wakeup caused by GPIO15
   if(wakeup_reason == 2){
-    //digitalWrite(23,HIGH);
     for(int dutyCycle = 0; dutyCycle <= 255; dutyCycle++){   
       // changing the LED brightness with PWM
       ledcWrite(0, dutyCycle);
