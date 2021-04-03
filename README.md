@@ -58,6 +58,10 @@ I have developed two types of modules to get the maximum hardware customization.
 
 Each slimstack connector has 16 pins + 4 for the power bus which can supply up to 5A.
 
+## 3D Cases
+![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3D_2.jpg)
+
+
 # FAQ
 
 ### Why use OBJEX Link and not another product like Arduino?
