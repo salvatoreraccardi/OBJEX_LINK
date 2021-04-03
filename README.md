@@ -6,8 +6,11 @@ Applications:
 - IoT Button
 - Weather station
 - Smart Spotlight
-- Camera security
+- Security camera
 - Motor driver
+- Brightness detector
+- RGB LED Strip controller
+- Smart relay
 
 **Todo** (Rev1.0)
 - [X] PWR test
