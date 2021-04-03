@@ -9,15 +9,15 @@ Applications:
 - Camera security
 - Motor driver
 
-**Todo**
+**Todo** (Rev1.0)
 - [X] PWR test
 - [X] upload firmware
 - [X] GPIO test
 - [X] WiFi and bluetooth test
 - [X] Battery test
 - [ ] Antenna tuning 
-- [ ] 3D case for BTN module
-- [ ] 3D case for HDC1080 module
+- [X] 3D case for BTN module
+- [X] 3D case for HDC1080 module
 
 
 ### Ultra Slim Form Factor
