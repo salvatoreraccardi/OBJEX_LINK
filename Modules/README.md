@@ -2,6 +2,16 @@
 **OBJEX Link is under development and optimization so some project files may vary over time.**
 
 # OBJEX Modules
+Modules are an essential element of OBJEX Link. In fact, they are the modules that allow OBJEX Link to detect the temperature, control an motor etc - *(like Arduino shields but smaller and more compact)*.
+
+Here are some features/components you can add with modules:
+
+- Sensors
+- Relay 
+- Motor driver(Stepper Motor, DC, LRA, ERM).
+- OLED Display
+- Convert slimstack connectors to larger connectors (type 2.54mm pitch connectors).
+- A specific circuit (such as LoRa Module, PSRAM, PWM controller, etc).
 
 ## Types of modules
 
