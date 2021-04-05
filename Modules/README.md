@@ -4,7 +4,7 @@
 # OBJEX Modules
 Modules are an essential element of OBJEX Link. In fact, they are the modules that allow OBJEX Link to detect the temperature, control an motor etc - *(like Arduino shields but smaller and more compact)*.
 
-Here are some features/components you can add with modules:
+**Here are some features/components you can add with modules:**
 
 - Sensors
 - Relay 
@@ -14,13 +14,7 @@ Here are some features/components you can add with modules:
 - A specific circuit (such as LoRa Module, PSRAM, PWM controller, etc).
 
 ## Types of modules
-
-| Type | Size    | PCB thickness | Connector | Connector Type | 3V3 | 5V | A |
-|------|---------|---------------|-----------|----------------|-----|----|---|
-| M0   | 10x20mm | 0.8mm         | 2         |  BM28B0              |  ✓   |  ✓  | 5 |
-| M1   | 20x20mm | 0.8mm         | 4         |  BM28B0              |  ✓   |  ✓  | 5 |
-
-Description
+There are several form formats to ensure maximum customization.
 
 | Type | Description     | Size    | PCB thickness | Connector | Connector Type | 3V3 | 5V | A |
 |------|-----------------|---------|---------------|-----------|----------------|-----|----|---|
