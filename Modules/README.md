@@ -20,3 +20,10 @@ There are several form formats to ensure maximum customization.
 |------|-----------------|---------|---------------|-----------|----------------|-----|----|---|
 | M0   | Standard Module | 10x20mm | 0.8mm         | 2         |  BM28B0              |  ✓   |  ✓  | 5 |
 | M1   | Standard Module | 20x20mm | 0.8mm         | 4         |  BM28B0              |  ✓   |  ✓  | 5 |
+
+
+## List of available modules
+
+| Module Type | Module Name | Description     | Size    | Version | Designer           | Buy           | Example of use  |
+|-------------|-------------|-----------------|---------|---------|--------------------|---------------|---|
+| M1          | Button            | Button with 4 leds | 20x20mm | 1.0     | Salvatore Raccardi | Not available | IoT Button|
