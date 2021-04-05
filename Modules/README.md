@@ -19,3 +19,10 @@ Here are some features/components you can add with modules:
 |------|---------|---------------|-----------|----------------|-----|----|---|
 | M0   | 10x20mm | 0.8mm         | 2         |  BM28B0              |  ✓   |  ✓  | 5 |
 | M1   | 20x20mm | 0.8mm         | 4         |  BM28B0              |  ✓   |  ✓  | 5 |
+
+Description
+
+| Type | Description     | Size    | PCB thickness | Connector | Connector Type | 3V3 | 5V | A |
+|------|-----------------|---------|---------------|-----------|----------------|-----|----|---|
+| M0   | Standard Module | 10x20mm | 0.8mm         | 2         |  BM28B0              |  ✓   |  ✓  | 5 |
+| M1   | Standard Module | 20x20mm | 0.8mm         | 4         |  BM28B0              |  ✓   |  ✓  | 5 |
