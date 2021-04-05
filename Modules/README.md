@@ -1,3 +1,6 @@
+## *NOTICE!*
+**OBJEX Link is under development and optimization so some project files may vary over time.**
+
 # OBJEX Modules
 
 ## Types of modules
