@@ -12,17 +12,6 @@ Applications:
 - RGB LED Strip controller
 - Smart relay
 
-**Todo** (Rev1.0)
-- [X] PWR test
-- [X] upload firmware
-- [X] GPIO test
-- [X] WiFi and bluetooth test
-- [X] Battery test
-- [ ] Antenna tuning 
-- [X] 3D case for BTN module
-- [X] 3D case for HDC1080 module
-
-
 
 https://www.youtube.com/watch?v=_4CofqktS38
 
