@@ -16,9 +16,7 @@ OBJEX Link is a modular IoT board. Is designed for every user who needs compact 
 
 *OBJEX Link is...*
 
- - **Modular**
-
-    Because it adapts to the device on which it is installed, with the different compatible modules and ultra-thin connectors.
+ - **Modular**because it adapts to the device on which it is installed, with the different compatible modules and ultra-thin connectors.
     
  - **Reusable**
  
