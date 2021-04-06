@@ -2,6 +2,9 @@
 # OBJEX Link 
 
 This project was developed by [Salvatore Raccardi](https://www.instagram.com/salvatore.raccardi/)
+My email: info@salvatoreraccardi.com  
+
+**OBJEX Link v1.0:** [Youtube](https://www.youtube.com/watch?v=_4CofqktS38)
 
 > Note: OBJEX Link is still under development, so documentation may vary over time.
 
@@ -21,8 +24,6 @@ Applications:
 
 
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/1.jpg)
-
-https://www.youtube.com/watch?v=_4CofqktS38
 
 ### Ultra Slim Form Factor
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/4.jpg)
