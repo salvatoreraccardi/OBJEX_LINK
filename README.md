@@ -59,11 +59,11 @@ There are several form formats to ensure maximum customization.
 
 **Features:**
 
-* **Size:** 24.1x24.1mm
-* **Compatible modules**: 2xM0(10x20mm) or 1xM1(20x20mm)
-
-- **Hardware:**
-
+- **Size:** 24.1x24.1mm
+- **Compatible modules** 
+  * 2xM0(10x20mm)
+  * 1xM1(20x20mm)
+- **Hardware**
   * Microcontroller(ESP32-PICO-D4)
   * Antenna 2.4GHz(WiFi and Bluetooth)
   * Serial bridge(CP2104)
