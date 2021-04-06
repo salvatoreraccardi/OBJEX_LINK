@@ -50,7 +50,7 @@ There are several form formats to ensure maximum customization.
 | M0   | Standard Module | 10x20mm | 0.8mm         | 2         |  BM28B0              |  ✓   |  ✓  | 5 |
 | M1   | Standard Module | 20x20mm | 0.8mm         | 4         |  BM28B0              |  ✓   |  ✓  | 5 |
 
-[List of available modules](https://github.com/salvatoreraccardi/OBJEX_LINK/tree/main/Modules)
+[List of available modules](https://github.com/salvatoreraccardi/OBJEX_LINK/tree/main/Modules#list-of-available-modules)
 
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3.jpg)
 
