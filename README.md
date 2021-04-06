@@ -4,7 +4,7 @@
 This project was developed by [Salvatore Raccardi](https://www.instagram.com/salvatore.raccardi/)
 My email: info@salvatoreraccardi.com  
 
-**OBJEX Link v1.0:** [Youtube](https://www.youtube.com/watch?v=_4CofqktS38)
+**OBJEX Link v1.0:** [watch the video](https://www.youtube.com/watch?v=_4CofqktS38)
 
 > Note: OBJEX Link is still under development, so documentation may vary over time.
 
