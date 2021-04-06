@@ -35,6 +35,14 @@ The applications of OBJEX Link are so many, but obviously, they are limited by t
   + led strip controller 
   + Smart spotlight
 
+All modules are open source so you can take inspiration from existing modules to develop modules for your projects.
+
+## Do you want an OBJEX Link board?
+
+I will soon explain how I will distribute the first prototypes.
+
+*Last update: 4/6/21*
+
 ### Ultra Slim Form Factor
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/4.jpg)
 
