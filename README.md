@@ -1,7 +1,7 @@
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/OBJEX-LINK_logo.png)
 # OBJEX Link 
 
-OBJEX Link is designed by @salvatoreraccardi
+Designed by [Salvatore Raccardi](https://www.instagram.com/salvatore.raccardi/)
 
 > Note: OBJEX Link is still under development, so documentation may vary over time.
 
