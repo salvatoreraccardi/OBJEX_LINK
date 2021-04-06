@@ -8,7 +8,7 @@ This project was developed by [Salvatore Raccardi](https://www.instagram.com/sal
 ## What is OBJEX Link?
 OBJEX Link is a modular IoT board. Is designed for every user who needs compact hardware for your smart projects. The form factor of OBJEX Link is meant to fit several applications. With modules, the user can customize easily the hardware for your projects.
 
-## What I cand do with OBJEX Link?
+## What I can do with OBJEX Link?
 Applications:
 - IoT Button
 - Weather station
