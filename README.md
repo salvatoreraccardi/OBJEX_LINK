@@ -16,15 +16,7 @@ OBJEX Link is a modular IoT board. Is designed for every user who needs compact 
 
 OBJEX Link hardware is easy to use, no special electronics knowledge is required. The installation of a module is very simple, you just need to respect the installation direction. It is rarely necessary to use cables to make external connections.
 
-OBJEX Link is based on ESP32 so to program the board you can use Arduino IDE, Python, and much more.
-
-*OBJEX Link is...*
-
- - **Modular** because it adapts to the device on which it is installed, with the different compatible modules and ultra-thin connectors.
-    
- - **Reusable** because at the end of the life cycle of a device it is possible to easily reuse the motherboard (OBJEX Link card) and modules. 
- 
- - **Compact** because it is one of the smallest IoT boards on the market.
+OBJEX Link is based on ESP32 microcontroller so to program the board you can use Arduino IDE, Python, and much more.
 
 ## What I can do with OBJEX Link?
 The applications of OBJEX Link are so many, but obviously, they are limited by the number of modules available. So here's what you can currently do with the modules developed so far:
