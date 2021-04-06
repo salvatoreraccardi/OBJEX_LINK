@@ -55,29 +55,25 @@ All modules are open source so you can take inspiration from existing modules to
 ### Modules
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2.jpg)
 
-I have developed two types of modules to get the maximum hardware customization. In this way, it is possible to add two M0-type modules and one M1 module only.
-- M0(10x20mm)(5V/3V3)
-- M1(20x20mm)(5V/3V3)
+Modules are an essential element of OBJEX Link. In fact, they are the modules that allow OBJEX Link to detect the temperature, control an motor etc - *(like Arduino shields but smaller and more compact)*.
+
+**Types of modules**
+There are several form formats to ensure maximum customization.
+
+| Type | Description     | Size    | PCB thickness | Connector | Connector Type | 3V3 | 5V | A |
+|------|-----------------|---------|---------------|-----------|----------------|-----|----|---|
+| M0   | Standard Module | 10x20mm | 0.8mm         | 2         |  BM28B0              |  ✓   |  ✓  | 5 |
+| M1   | Standard Module | 20x20mm | 0.8mm         | 4         |  BM28B0              |  ✓   |  ✓  | 5 |
+
+[List of available modules](https://github.com/salvatoreraccardi/OBJEX_LINK/tree/main/Modules)
 
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3.jpg)
-
-
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/5.jpg)
-
 
 ## Do you want an OBJEX Link board?
 
 I will soon explain how I will distribute the first prototypes.
 
 *Last update: 4/6/21*
-
-# FAQ
-
-### Why use OBJEX Link and not another product like Arduino?
-OBJEX Link was designed to develop smart devices and not for prototyping as you can see there are no GPIO connectors or stuff like that. With external modules, you can decide which device will become OBJEX Link, like a weather station, smart motor driver, Smart button, etc.
-
-### OBJEX Link is open source?
-All modules are open source in this way every user can design your module for a specific application. Also, all 3D projects designed for OBJEX LINK are open source.
 
 ### Sponsor
 
