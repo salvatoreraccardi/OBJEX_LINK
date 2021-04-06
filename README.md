@@ -26,7 +26,7 @@ OBJEX Link is based on ESP32 so to program the board you can use Arduino IDE, Py
  
  - **Compact** because it is one of the smallest IoT boards on the market.
 
-## What I cand do with OBJEX Link?
+## What I can do with OBJEX Link?
 The applications of OBJEX Link are so many, but obviously, they are limited by the number of modules available. So here's what you can currently do with the modules developed so far:
 
 + without module
