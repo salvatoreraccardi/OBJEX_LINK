@@ -3,70 +3,82 @@
 
 This project was developed by [Salvatore Raccardi](https://www.instagram.com/salvatore.raccardi/)
 
+My email: info@salvatoreraccardi.com  
+
+*Youtube:* <br />
+Assembly and testing - **OBJEX Link v1.0:** [watch the video](https://www.youtube.com/watch?v=_4CofqktS38)
+
 > Note: OBJEX Link is still under development, so documentation may vary over time.
 
 ## What is OBJEX Link?
-OBJEX Link is a modular IoT board. Is designed for every user who needs compact hardware for your smart projects. The form factor of OBJEX Link is meant to fit several applications. With modules, the user can customize easily the hardware for your projects.
+OBJEX Link is a modular IoT board. Is designed for every user who needs compact hardware for IoT projects. The form factor of OBJEX Link is meant to fit several applications like(IoT button, security camera, motor driver, etc). With modules, the user can customize easily the hardware for your projects. OBJEX Link is composed of a mainboard(microcontroller + WiFi and Bluetooth) and modules(Sensor, Relay, Driver, Camera, Display, etc).
 
-## What I can do with OBJEX Link?
-Applications:
-- IoT Button
-- Weather station
-- Smart Spotlight
-- Security camera
-- Motor driver
-- Brightness detector
-- RGB LED Strip controller
-- Smart relay
-
+OBJEX Link is based on ESP32 microcontroller, to program the board you can use Arduino IDE, Python, or other similar solutions.
 
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/1.jpg)
 
-https://www.youtube.com/watch?v=_4CofqktS38
+## What I can do with OBJEX Link?
+The applications of OBJEX Link are so many, but obviously, they are limited by the number of modules available. So here's what you can currently do with the modules developed so far:
 
-### Ultra Slim Form Factor
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/4.jpg)
++ without module
+  + WiFi server 
+  + webserver
++ sensors Module
+  + Weather station
+  + Gyroscope
++ button Module
+  + IoT button
++ PWM controller module
+  + led strip controller 
+  + Smart spotlight
 
-### Features Rev1.0
-
-- Microcontroller(ESP32-PICO-D4)
-- Antenna 2.4GHz(WiFi and Bluetooth)
-- Serial bridge(CP2104)
-- Battery manager(MCP73833T)
-- LDO(5V To 3V3 - MAX 1.5A)
-- Slimstack connectors
-- ESD Protection(VBUS, D+ and D-)
-- USB-C
-- Battery LVL sens(Resistors)
-- USB-C status(Resistors)
-
-*Compatible modules: 2xM0(10x20mm) or 1xM1(20x20mm)*
+All modules are open source so you can take inspiration from existing modules to develop modules for your projects.
 
 ### Modules
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2.jpg)
 
-I have developed two types of modules to get the maximum hardware customization. In this way, it is possible to add two M0-type modules and one M1 module only.
-- M0(10x20mm)(5V/3V3)
-- M1(20x20mm)(5V/3V3)
+Modules are an essential element of OBJEX Link. In fact, they are the modules that allow OBJEX Link to detect the temperature, control an motor etc - *(like Arduino shields but smaller and more compact)*.
 
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/5.jpg)
+**Types of modules**
 
-### SlimStack
+There are several form formats to ensure maximum customization.
+
+| Type | Description     | Size    | PCB thickness | Connector | Connector Type | 3V3 | 5V | A |
+|------|-----------------|---------|---------------|-----------|----------------|-----|----|---|
+| M0   | Standard Module | 10x20mm | 0.8mm         | 2         |  BM28B0              |  ✓   |  ✓  | 5 |
+| M1   | Standard Module | 20x20mm | 0.8mm         | 4         |  BM28B0              |  ✓   |  ✓  | 5 |
+
+[List of available modules](https://github.com/salvatoreraccardi/OBJEX_LINK/tree/main/Modules)
+
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3.jpg)
 
-Each slimstack connector has 16 pins + 4 for the power bus which can supply up to 5A.
+## OBJEX Link Rev1.0
+The first prototype is already up and running, several tests have been performed on the board and it is stable even after long sessions of intense use.
 
-## 3D Cases
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3D_2.jpg)
+**Features:**
+- **Size:** 24.1x24.1mm
+- **Compatible modules** 
+  * 2xM0(10x20mm)
+  * 1xM1(20x20mm)
+- **Hardware**
+  * Microcontroller(ESP32-PICO-D4)
+  * Antenna 2.4GHz(WiFi and Bluetooth)
+  * Serial bridge(CP2104)
+  * Battery manager(MCP73833T)
+  * LDO(5V To 3V3 - MAX 1A)
+  * Slimstack connectors x4
+  * ESD Protection(VBUS, D+ and D-)
+  * USB-C Type 2.0
+  * Battery LVL sens(Resistors)
+  * USB-C status(Resistors)
 
+## Do you want an OBJEX Link board?
 
-# FAQ
+I will soon explain how I will distribute the first prototypes.
 
-### Why use OBJEX Link and not another product like Arduino?
-OBJEX Link was designed to develop smart devices and not for prototyping as you can see there are no GPIO connectors or stuff like that. With external modules, you can decide which device will become OBJEX Link, like a weather station, smart motor driver, Smart button, etc.
+*Last update: 4/6/21*
 
-### OBJEX Link is open source?
-All modules are open source in this way every user can design your module for a specific application. Also, all 3D projects designed for OBJEX LINK are open source.
+## Sponsor
 
-### Sponsor
+All PCBs were supplied by [PCBWay](https://www.pcbway.com/).
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/pcbway.png)
