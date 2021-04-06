@@ -56,9 +56,9 @@ There are several form formats to ensure maximum customization.
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3.jpg)
 
 ## OBJEX Link Rev1.0
+The first prototype is already up and running, several tests have been performed on the board and it is stable even after long sessions of intense use.
 
 **Features:**
-
 - **Size:** 24.1x24.1mm
 - **Compatible modules** 
   * 2xM0(10x20mm)
