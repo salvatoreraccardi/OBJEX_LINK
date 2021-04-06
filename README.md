@@ -37,10 +37,6 @@ The applications of OBJEX Link are so many, but obviously, they are limited by t
 
 All modules are open source so you can take inspiration from existing modules to develop modules for your projects.
 
-
-### Ultra Slim Form Factor
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/4.jpg)
-
 ### Features Rev1.0
 
 - Microcontroller(ESP32-PICO-D4)
@@ -69,10 +65,6 @@ I have developed two types of modules to get the maximum hardware customization.
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/5.jpg)
 
 
-## 3D Cases
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3D_2.jpg)
-
-
 ## Do you want an OBJEX Link board?
 
 I will soon explain how I will distribute the first prototypes.
@@ -88,4 +80,6 @@ OBJEX Link was designed to develop smart devices and not for prototyping as you 
 All modules are open source in this way every user can design your module for a specific application. Also, all 3D projects designed for OBJEX LINK are open source.
 
 ### Sponsor
+
+All PCBs were supplied by [PCBWay](https://www.pcbway.com/).
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/pcbway.png)
