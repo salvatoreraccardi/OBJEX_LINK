@@ -18,6 +18,8 @@ OBJEX Link hardware is easy to use, no special electronics knowledge is required
 
 OBJEX Link is based on ESP32 microcontroller so to program the board you can use Arduino IDE, Python, and much more.
 
+![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/1.jpg)
+
 ## What I can do with OBJEX Link?
 The applications of OBJEX Link are so many, but obviously, they are limited by the number of modules available. So here's what you can currently do with the modules developed so far:
 
@@ -32,8 +34,6 @@ The applications of OBJEX Link are so many, but obviously, they are limited by t
 + PWM controller module
   + led strip controller 
   + Smart spotlight
-
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/1.jpg)
 
 ### Ultra Slim Form Factor
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/4.jpg)
