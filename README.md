@@ -63,7 +63,7 @@ The first prototype is already up and running, several tests have been performed
   * 2xM0(10x20mm)
   * 1xM1(20x20mm)
 - **Hardware**
-  * Microcontroller(ESP32-PICO-D4)
+  * Microcontroller([ESP32-PICO-D4](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/Docs/esp32-pico-d4_datasheet.pdf))
   * Antenna 2.4GHz(WiFi and Bluetooth)
   * Serial bridge(CP2104)
   * Battery manager(MCP73833T)
