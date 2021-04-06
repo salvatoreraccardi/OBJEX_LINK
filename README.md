@@ -37,28 +37,6 @@ The applications of OBJEX Link are so many, but obviously, they are limited by t
 
 All modules are open source so you can take inspiration from existing modules to develop modules for your projects.
 
-## OBJEX Link Rev1.0
-
-**Features:**
-
-* **Size:** 24.1x24.1mm
-* **Compatible modules**: 2xM0(10x20mm) or 1xM1(20x20mm)
-
-**Hardware:**
-
-* Microcontroller(ESP32-PICO-D4)
-* Antenna 2.4GHz(WiFi and Bluetooth)
-* Serial bridge(CP2104)
-* Battery manager(MCP73833T)
-* LDO(5V To 3V3 - MAX 1A)
-* Slimstack connectors x4
-* ESD Protection(VBUS, D+ and D-)
-* USB-C Type 2.0
-* Battery LVL sens(Resistors)
-* USB-C status(Resistors)
-
-
-
 ### Modules
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2.jpg)
 
@@ -76,6 +54,26 @@ There are several form formats to ensure maximum customization.
 [List of available modules](https://github.com/salvatoreraccardi/OBJEX_LINK/tree/main/Modules)
 
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3.jpg)
+
+## OBJEX Link Rev1.0
+
+**Features:**
+
+* **Size:** 24.1x24.1mm
+* **Compatible modules**: 2xM0(10x20mm) or 1xM1(20x20mm)
+
+- **Hardware:**
+
+  * Microcontroller(ESP32-PICO-D4)
+  * Antenna 2.4GHz(WiFi and Bluetooth)
+  * Serial bridge(CP2104)
+  * Battery manager(MCP73833T)
+  * LDO(5V To 3V3 - MAX 1A)
+  * Slimstack connectors x4
+  * ESD Protection(VBUS, D+ and D-)
+  * USB-C Type 2.0
+  * Battery LVL sens(Resistors)
+  * USB-C status(Resistors)
 
 ## Do you want an OBJEX Link board?
 
