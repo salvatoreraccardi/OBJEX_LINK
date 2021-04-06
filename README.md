@@ -37,11 +37,6 @@ The applications of OBJEX Link are so many, but obviously, they are limited by t
 
 All modules are open source so you can take inspiration from existing modules to develop modules for your projects.
 
-## Do you want an OBJEX Link board?
-
-I will soon explain how I will distribute the first prototypes.
-
-*Last update: 4/6/21*
 
 ### Ultra Slim Form Factor
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/4.jpg)
@@ -68,16 +63,21 @@ I have developed two types of modules to get the maximum hardware customization.
 - M0(10x20mm)(5V/3V3)
 - M1(20x20mm)(5V/3V3)
 
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/5.jpg)
-
-### SlimStack
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3.jpg)
 
-Each slimstack connector has 16 pins + 4 for the power bus which can supply up to 5A.
+
+![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/5.jpg)
+
 
 ## 3D Cases
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3D_2.jpg)
 
+
+## Do you want an OBJEX Link board?
+
+I will soon explain how I will distribute the first prototypes.
+
+*Last update: 4/6/21*
 
 # FAQ
 
