@@ -2,7 +2,10 @@
 # OBJEX Link 
 
 This project was developed by [Salvatore Raccardi](https://www.instagram.com/salvatore.raccardi/)
+
 My email: info@salvatoreraccardi.com  
+
+*Youtube:*
 
 **OBJEX Link v1.0:** [watch the video](https://www.youtube.com/watch?v=_4CofqktS38)
 
