@@ -7,7 +7,7 @@ My email: info@salvatoreraccardi.com
 
 *Youtube:*
 
-**OBJEX Link v1.0:** [watch the video](https://www.youtube.com/watch?v=_4CofqktS38)
+Assembly and testing - **OBJEX Link v1.0:** [watch the video](https://www.youtube.com/watch?v=_4CofqktS38)
 
 > Note: OBJEX Link is still under development, so documentation may vary over time.
 
