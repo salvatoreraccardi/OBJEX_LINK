@@ -22,8 +22,7 @@ OBJEX Link is based on ESP32 microcontroller, to program the board you can use A
 ## What I can do with OBJEX Link?
 The applications of OBJEX Link are so many, but obviously, they are limited by the number of modules available. So here's what you can currently do with the modules developed so far:
 
-+ without module
-  + WiFi server 
++ without module 
   + webserver
 + sensors Module
   + Weather station
