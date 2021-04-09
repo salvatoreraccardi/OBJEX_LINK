@@ -53,7 +53,7 @@ There are several form formats to ensure maximum customization.
 
 **SlimStack Connectors**
 
-Low profile slimstack connectors are used to connect a module to OBJEX Link. If you want to develop your first module click [here](https://github.com/salvatoreraccardi/OBJEX_LINK/tree/main/library) to download the connector library.
+Low profile slimstack connectors are used to connect a module to OBJEX Link. If you want to develop your first module [click here](https://github.com/salvatoreraccardi/OBJEX_LINK/tree/main/library) to download the connector library.
 
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3.jpg)
 
