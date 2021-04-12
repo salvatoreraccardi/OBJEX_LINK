@@ -1,0 +1,302 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "M0 - HDC1080 v1.0"
+Date "2021-02-27"
+Rev "1.0"
+Comp "OBJEX"
+Comment1 "Designer: Salvatore Raccardi"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HiroseConnectors:BM28B0.6-16DP_2-0.35V(51) J1
+U 1 1 60369C04
+P 1715 1885
+F 0 "J1" H 1970 1400 50  0000 C CNN
+F 1 "BM28B0.6-16DP_2-0.35V(51)" H 2495 1335 50  0000 C CNN
+F 2 "Connector_Hirose:BM28B0.6-16DP-2-0.35V(51)" H 1715 1885 50  0001 C CNN
+F 3 "" H 1715 1885 50  0001 C CNN
+	1    1715 1885
+	1    0    0    -1  
+$EndComp
+$Comp
+L HiroseConnectors:BM28B0.6-16DP_2-0.35V(51) J3
+U 1 1 6037E454
+P 4340 1880
+F 0 "J3" H 4595 1405 50  0000 C CNN
+F 1 "BM28B0.6-16DP_2-0.35V(51)" H 5120 1320 50  0000 C CNN
+F 2 "Connector_Hirose:BM28B0.6-16DP-2-0.35V(51)" H 4340 1880 50  0001 C CNN
+F 3 "" H 4340 1880 50  0001 C CNN
+	1    4340 1880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1690 2285 1690 2220
+Wire Wire Line
+	1690 2220 1740 2220
+Wire Wire Line
+	1790 2220 1790 2285
+Wire Wire Line
+	1740 2220 1740 2140
+Connection ~ 1740 2220
+Wire Wire Line
+	1740 2220 1790 2220
+$Comp
+L power:GND #PWR0101
+U 1 1 60381361
+P 1740 2140
+F 0 "#PWR0101" H 1740 1890 50  0001 C CNN
+F 1 "GND" H 1745 1967 50  0000 C CNN
+F 2 "" H 1740 2140 50  0001 C CNN
+F 3 "" H 1740 2140 50  0001 C CNN
+	1    1740 2140
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1790 3735 1790 3800
+Wire Wire Line
+	1790 3800 1740 3800
+Wire Wire Line
+	1690 3800 1690 3735
+Wire Wire Line
+	1740 3800 1740 3880
+Connection ~ 1740 3800
+Wire Wire Line
+	1740 3800 1690 3800
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 60382222
+P 1740 3880
+F 0 "#PWR0102" H 1740 3730 50  0001 C CNN
+F 1 "+3V3" H 1755 4053 50  0000 C CNN
+F 2 "" H 1740 3880 50  0001 C CNN
+F 3 "" H 1740 3880 50  0001 C CNN
+	1    1740 3880
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4315 2280 4315 2215
+Wire Wire Line
+	4315 2215 4365 2215
+Wire Wire Line
+	4415 2215 4415 2280
+Wire Wire Line
+	4365 2215 4365 2135
+Connection ~ 4365 2215
+Wire Wire Line
+	4365 2215 4415 2215
+$Comp
+L power:GND #PWR0106
+U 1 1 60389719
+P 4365 2135
+F 0 "#PWR0106" H 4365 1885 50  0001 C CNN
+F 1 "GND" H 4370 1962 50  0000 C CNN
+F 2 "" H 4365 2135 50  0001 C CNN
+F 3 "" H 4365 2135 50  0001 C CNN
+	1    4365 2135
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4415 3730 4415 3795
+Wire Wire Line
+	4415 3795 4365 3795
+Wire Wire Line
+	4315 3795 4315 3730
+Wire Wire Line
+	4365 3795 4365 3875
+Connection ~ 4365 3795
+Wire Wire Line
+	4365 3795 4315 3795
+$Comp
+L power:+5V #PWR0107
+U 1 1 6038B8A2
+P 4365 3875
+F 0 "#PWR0107" H 4365 3725 50  0001 C CNN
+F 1 "+5V" H 4380 4048 50  0000 C CNN
+F 2 "" H 4365 3875 50  0001 C CNN
+F 3 "" H 4365 3875 50  0001 C CNN
+	1    4365 3875
+	-1   0    0    1   
+$EndComp
+NoConn ~ 1465 2860
+NoConn ~ 1465 3060
+NoConn ~ 1465 3260
+NoConn ~ 2015 3160
+NoConn ~ 2015 2960
+NoConn ~ 2015 2760
+NoConn ~ 4090 2855
+NoConn ~ 4090 3055
+NoConn ~ 4090 3255
+NoConn ~ 4640 3355
+NoConn ~ 4640 3155
+NoConn ~ 4640 2955
+NoConn ~ 1465 2660
+NoConn ~ 1465 2760
+NoConn ~ 2015 2860
+NoConn ~ 2015 3060
+NoConn ~ 2015 3260
+NoConn ~ 2015 3360
+NoConn ~ 1465 3160
+NoConn ~ 1465 3360
+NoConn ~ 4090 2955
+NoConn ~ 4090 3155
+NoConn ~ 4640 3255
+NoConn ~ 4640 3055
+NoConn ~ 4640 2855
+$Comp
+L Sensor_Humidity:HDC1080 U1
+U 1 1 603A4EDB
+P 2915 6005
+F 0 "U1" H 2572 6051 50  0000 R CNN
+F 1 "HDC1080" H 2572 5960 50  0000 R CNN
+F 2 "Package_SON:Texas_PWSON-N6" H 2865 5755 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/hdc1080.pdf" H 2515 6255 50  0001 C CNN
+	1    2915 6005
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2815 6305 2815 6405
+$Comp
+L power:GND #PWR0103
+U 1 1 603A60CD
+P 2815 6405
+F 0 "#PWR0103" H 2815 6155 50  0001 C CNN
+F 1 "GND" H 2820 6232 50  0000 C CNN
+F 2 "" H 2815 6405 50  0001 C CNN
+F 3 "" H 2815 6405 50  0001 C CNN
+	1    2815 6405
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2815 5705 2815 5635
+Wire Wire Line
+	2815 5635 2715 5635
+Connection ~ 2815 5635
+Wire Wire Line
+	2815 5635 2815 5570
+$Comp
+L Device:C C1
+U 1 1 603A7CB6
+P 2815 5420
+F 0 "C1" H 2930 5466 50  0000 L CNN
+F 1 "0.1uF" H 2930 5375 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2853 5270 50  0001 C CNN
+F 3 "~" H 2815 5420 50  0001 C CNN
+	1    2815 5420
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 603A8382
+P 2715 5635
+F 0 "#PWR0104" H 2715 5485 50  0001 C CNN
+F 1 "+3V3" V 2730 5763 50  0000 L CNN
+F 2 "" H 2715 5635 50  0001 C CNN
+F 3 "" H 2715 5635 50  0001 C CNN
+	1    2715 5635
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2815 5270 2815 5155
+$Comp
+L power:GND #PWR0105
+U 1 1 603A9869
+P 2815 5155
+F 0 "#PWR0105" H 2815 4905 50  0001 C CNN
+F 1 "GND" H 2820 4982 50  0000 C CNN
+F 2 "" H 2815 5155 50  0001 C CNN
+F 3 "" H 2815 5155 50  0001 C CNN
+	1    2815 5155
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3215 5905 3410 5905
+Wire Wire Line
+	3215 6005 3745 6005
+Wire Wire Line
+	3410 5905 3410 5685
+Connection ~ 3410 5905
+Wire Wire Line
+	3410 5905 3930 5905
+$Comp
+L power:+3V3 #PWR0108
+U 1 1 603AC028
+P 3410 5275
+F 0 "#PWR0108" H 3410 5125 50  0001 C CNN
+F 1 "+3V3" H 3425 5448 50  0000 C CNN
+F 2 "" H 3410 5275 50  0001 C CNN
+F 3 "" H 3410 5275 50  0001 C CNN
+	1    3410 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 603AC43C
+P 3410 5535
+F 0 "R1" H 3480 5581 50  0000 L CNN
+F 1 "10K" H 3480 5490 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3340 5535 50  0001 C CNN
+F 3 "~" H 3410 5535 50  0001 C CNN
+	1    3410 5535
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3410 5385 3410 5275
+$Comp
+L power:+3V3 #PWR0109
+U 1 1 603AF3CE
+P 3745 5275
+F 0 "#PWR0109" H 3745 5125 50  0001 C CNN
+F 1 "+3V3" H 3760 5448 50  0000 C CNN
+F 2 "" H 3745 5275 50  0001 C CNN
+F 3 "" H 3745 5275 50  0001 C CNN
+	1    3745 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 603AF3D4
+P 3745 5535
+F 0 "R2" H 3815 5581 50  0000 L CNN
+F 1 "10K" H 3815 5490 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3675 5535 50  0001 C CNN
+F 3 "~" H 3745 5535 50  0001 C CNN
+	1    3745 5535
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3745 5385 3745 5275
+Wire Wire Line
+	3745 5685 3745 6005
+Connection ~ 3745 6005
+Wire Wire Line
+	3745 6005 3930 6005
+Text Label 3930 5905 2    50   ~ 0
+SCL
+Text Label 3930 6005 2    50   ~ 0
+SDA
+Wire Wire Line
+	4890 2655 4640 2655
+Wire Wire Line
+	4890 2755 4640 2755
+Text Label 4890 2655 2    50   ~ 0
+SDA
+Text Label 4890 2755 2    50   ~ 0
+SCL
+NoConn ~ 1465 2960
+NoConn ~ 2015 2660
+NoConn ~ 4090 3355
+NoConn ~ 4090 2655
+NoConn ~ 4090 2755
+Text Notes 990  1355 0    79   ~ 0
+CAUTION: NO REVERSE POLARITY/ESD PROTECTION!
+Text Notes 985  1220 0    98   ~ 0
+M0 - HDC1080 v1.0
+Text Notes 7145 3850 0    50   ~ 0
+Copyright CERN 2020.\nThis source describes Open Hardware and is licensed under the CERN-OHLW v2\nYou may redistribute and modify this documentation and make products\nusing it under the terms of the CERN-OHL-W v2 (https:/cern.ch/cern-ohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY\nAND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2\nfor applicable conditions.\nSource location: https://www.ohwr.org/project/wr-switch-hw\nAs per CERN-OHL-W v2 section 4.1, should You produce hardware based on\nthese sources, You must maintain the Source Location visible on the\nexternal case of the White Rabbit switch or other product you make using\nthis documentation.\n\nDESIGNED BY SALVATORE RACCARDI
+$EndSCHEMATC
