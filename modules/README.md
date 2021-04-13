@@ -27,3 +27,5 @@ There are several form formats to ensure maximum customization.
 | Module Type | Module Name | Description     | Size    | Version | Designer           | Buy           | Example of use  |
 |-------------|-------------|-----------------|---------|---------|--------------------|---------------|---|
 | M1          | Button            | Button with 4 leds | 20x20mm | 1.0     | Salvatore Raccardi | Not available | IoT Button|
+| M0          | MPU6050           | Sensor - Gyroscope| 10x20mm | 1.0     | Salvatore Raccardi | Not available | - |
+| M0          | HDC1080           | Sensor - Temperature/Humidity| 10x20mm | 1.0     | Salvatore Raccardi | Not available | Weather station |
