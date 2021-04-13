@@ -1,0 +1,552 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "M1 - BTN v1.0"
+Date "2021-02-11"
+Rev "1.0"
+Comp "OBJEX"
+Comment1 "Designer: Salvatore Raccardi"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HiroseConnectors:BM28B0.6-16DP_2-0.35V(51) J1
+U 1 1 60369C04
+P 1765 1915
+F 0 "J1" H 2020 1430 50  0000 C CNN
+F 1 "BM28B0.6-16DP_2-0.35V(51)" H 2545 1365 50  0000 C CNN
+F 2 "Connector_Hirose:BM28B0.6-16DP-2-0.35V(51)" H 1765 1915 50  0001 C CNN
+F 3 "" H 1765 1915 50  0001 C CNN
+	1    1765 1915
+	1    0    0    -1  
+$EndComp
+$Comp
+L HiroseConnectors:BM28B0.6-16DP_2-0.35V(51) J3
+U 1 1 6037E454
+P 4410 1920
+F 0 "J3" H 4665 1445 50  0000 C CNN
+F 1 "BM28B0.6-16DP_2-0.35V(51)" H 5190 1360 50  0000 C CNN
+F 2 "Connector_Hirose:BM28B0.6-16DP-2-0.35V(51)" H 4410 1920 50  0001 C CNN
+F 3 "" H 4410 1920 50  0001 C CNN
+	1    4410 1920
+	1    0    0    -1  
+$EndComp
+$Comp
+L HiroseConnectors:BM28B0.6-16DP_2-0.35V(51) J2
+U 1 1 6037FDEF
+P 1770 4685
+F 0 "J2" H 2025 4185 50  0000 C CNN
+F 1 "BM28B0.6-16DP_2-0.35V(51)" H 2555 4115 50  0000 C CNN
+F 2 "Connector_Hirose:BM28B0.6-16DP-2-0.35V(51)" H 1770 4685 50  0001 C CNN
+F 3 "" H 1770 4685 50  0001 C CNN
+	1    1770 4685
+	1    0    0    -1  
+$EndComp
+$Comp
+L HiroseConnectors:BM28B0.6-16DP_2-0.35V(51) J4
+U 1 1 6038031D
+P 4420 4685
+F 0 "J4" H 4675 4190 50  0000 C CNN
+F 1 "BM28B0.6-16DP_2-0.35V(51)" H 5205 4120 50  0000 C CNN
+F 2 "Connector_Hirose:BM28B0.6-16DP-2-0.35V(51)" H 4420 4685 50  0001 C CNN
+F 3 "" H 4420 4685 50  0001 C CNN
+	1    4420 4685
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1740 2315 1740 2250
+Wire Wire Line
+	1740 2250 1790 2250
+Wire Wire Line
+	1840 2250 1840 2315
+Wire Wire Line
+	1790 2250 1790 2170
+Connection ~ 1790 2250
+Wire Wire Line
+	1790 2250 1840 2250
+$Comp
+L power:GND #PWR0101
+U 1 1 60381361
+P 1790 2170
+F 0 "#PWR0101" H 1790 1920 50  0001 C CNN
+F 1 "GND" H 1795 1997 50  0000 C CNN
+F 2 "" H 1790 2170 50  0001 C CNN
+F 3 "" H 1790 2170 50  0001 C CNN
+	1    1790 2170
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1840 3765 1840 3830
+Wire Wire Line
+	1840 3830 1790 3830
+Wire Wire Line
+	1740 3830 1740 3765
+Wire Wire Line
+	1790 3830 1790 3910
+Connection ~ 1790 3830
+Wire Wire Line
+	1790 3830 1740 3830
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 60382222
+P 1790 3910
+F 0 "#PWR0102" H 1790 3760 50  0001 C CNN
+F 1 "+3V3" H 1805 4083 50  0000 C CNN
+F 2 "" H 1790 3910 50  0001 C CNN
+F 3 "" H 1790 3910 50  0001 C CNN
+	1    1790 3910
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1745 5085 1745 5020
+Wire Wire Line
+	1745 5020 1795 5020
+Wire Wire Line
+	1845 5020 1845 5085
+Wire Wire Line
+	1795 5020 1795 4940
+Connection ~ 1795 5020
+Wire Wire Line
+	1795 5020 1845 5020
+$Comp
+L power:GND #PWR0103
+U 1 1 603863D4
+P 1795 4940
+F 0 "#PWR0103" H 1795 4690 50  0001 C CNN
+F 1 "GND" H 1800 4767 50  0000 C CNN
+F 2 "" H 1795 4940 50  0001 C CNN
+F 3 "" H 1795 4940 50  0001 C CNN
+	1    1795 4940
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1845 6535 1845 6600
+Wire Wire Line
+	1845 6600 1795 6600
+Wire Wire Line
+	1745 6600 1745 6535
+Wire Wire Line
+	1795 6600 1795 6680
+Connection ~ 1795 6600
+Wire Wire Line
+	1795 6600 1745 6600
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 60387570
+P 1795 6680
+F 0 "#PWR0104" H 1795 6530 50  0001 C CNN
+F 1 "+3V3" H 1810 6853 50  0000 C CNN
+F 2 "" H 1795 6680 50  0001 C CNN
+F 3 "" H 1795 6680 50  0001 C CNN
+	1    1795 6680
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4395 5085 4395 5020
+Wire Wire Line
+	4395 5020 4445 5020
+Wire Wire Line
+	4495 5020 4495 5085
+Wire Wire Line
+	4445 5020 4445 4940
+Connection ~ 4445 5020
+Wire Wire Line
+	4445 5020 4495 5020
+$Comp
+L power:GND #PWR0105
+U 1 1 60388758
+P 4445 4940
+F 0 "#PWR0105" H 4445 4690 50  0001 C CNN
+F 1 "GND" H 4450 4767 50  0000 C CNN
+F 2 "" H 4445 4940 50  0001 C CNN
+F 3 "" H 4445 4940 50  0001 C CNN
+	1    4445 4940
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4385 2320 4385 2255
+Wire Wire Line
+	4385 2255 4435 2255
+Wire Wire Line
+	4485 2255 4485 2320
+Wire Wire Line
+	4435 2255 4435 2175
+Connection ~ 4435 2255
+Wire Wire Line
+	4435 2255 4485 2255
+$Comp
+L power:GND #PWR0106
+U 1 1 60389719
+P 4435 2175
+F 0 "#PWR0106" H 4435 1925 50  0001 C CNN
+F 1 "GND" H 4440 2002 50  0000 C CNN
+F 2 "" H 4435 2175 50  0001 C CNN
+F 3 "" H 4435 2175 50  0001 C CNN
+	1    4435 2175
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4485 3770 4485 3835
+Wire Wire Line
+	4485 3835 4435 3835
+Wire Wire Line
+	4385 3835 4385 3770
+Wire Wire Line
+	4435 3835 4435 3915
+Connection ~ 4435 3835
+Wire Wire Line
+	4435 3835 4385 3835
+$Comp
+L power:+5V #PWR0107
+U 1 1 6038B8A2
+P 4435 3915
+F 0 "#PWR0107" H 4435 3765 50  0001 C CNN
+F 1 "+5V" H 4450 4088 50  0000 C CNN
+F 2 "" H 4435 3915 50  0001 C CNN
+F 3 "" H 4435 3915 50  0001 C CNN
+	1    4435 3915
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4495 6535 4495 6600
+Wire Wire Line
+	4495 6600 4445 6600
+Wire Wire Line
+	4395 6600 4395 6535
+Wire Wire Line
+	4445 6600 4445 6680
+Connection ~ 4445 6600
+Wire Wire Line
+	4445 6600 4395 6600
+$Comp
+L power:+5V #PWR0108
+U 1 1 6038CD4D
+P 4445 6680
+F 0 "#PWR0108" H 4445 6530 50  0001 C CNN
+F 1 "+5V" H 4460 6853 50  0000 C CNN
+F 2 "" H 4445 6680 50  0001 C CNN
+F 3 "" H 4445 6680 50  0001 C CNN
+	1    4445 6680
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6039830B
+P 8325 1325
+F 0 "SW1" H 8325 1610 50  0000 C CNN
+F 1 "SW_Push" H 8325 1519 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR" H 8325 1525 50  0001 C CNN
+F 3 "~" H 8325 1525 50  0001 C CNN
+	1    8325 1325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8125 1325 7950 1325
+$Comp
+L power:+3V3 #PWR0109
+U 1 1 6039A1D2
+P 7950 1325
+F 0 "#PWR0109" H 7950 1175 50  0001 C CNN
+F 1 "+3V3" V 7965 1453 50  0000 L CNN
+F 2 "" H 7950 1325 50  0001 C CNN
+F 3 "" H 7950 1325 50  0001 C CNN
+	1    7950 1325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8525 1325 8740 1325
+Wire Wire Line
+	8740 1325 8740 1415
+$Comp
+L power:GND #PWR0110
+U 1 1 6039BBFD
+P 8740 1800
+F 0 "#PWR0110" H 8740 1550 50  0001 C CNN
+F 1 "GND" H 8745 1627 50  0000 C CNN
+F 2 "" H 8740 1800 50  0001 C CNN
+F 3 "" H 8740 1800 50  0001 C CNN
+	1    8740 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6039C3F2
+P 8740 1565
+F 0 "R1" H 8810 1611 50  0000 L CNN
+F 1 "10K" H 8810 1520 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8670 1565 50  0001 C CNN
+F 3 "~" H 8740 1565 50  0001 C CNN
+	1    8740 1565
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8740 1715 8740 1800
+Wire Wire Line
+	8740 1325 8965 1325
+Connection ~ 8740 1325
+Text GLabel 8965 1325 2    50   Input ~ 0
+IO15
+Text Notes 1020 1490 0    79   ~ 0
+CAUTION: NO REVERSE POLARITY/ESD PROTECTION!
+Wire Wire Line
+	4865 3395 4710 3395
+Text GLabel 4865 3395 2    50   Input ~ 0
+IO23
+Text GLabel 7440 2455 0    50   Input ~ 0
+IO23
+Wire Wire Line
+	1515 2690 1360 2690
+Text GLabel 1360 2690 0    50   Input ~ 0
+IO25
+Wire Wire Line
+	2220 2990 2065 2990
+Text GLabel 2220 2990 2    50   Input ~ 0
+IO27
+Wire Wire Line
+	1520 6160 1365 6160
+Text GLabel 1365 6160 0    50   Input ~ 0
+IO15
+Wire Wire Line
+	1520 5660 1365 5660
+Text GLabel 1365 5660 0    50   Input ~ 0
+IO26
+NoConn ~ 1515 2890
+NoConn ~ 1515 3090
+NoConn ~ 1515 3290
+NoConn ~ 2065 3190
+NoConn ~ 2065 2790
+NoConn ~ 4160 2895
+NoConn ~ 4160 3095
+NoConn ~ 4160 3295
+NoConn ~ 4710 3195
+NoConn ~ 4710 2995
+NoConn ~ 4710 2795
+NoConn ~ 4720 5560
+NoConn ~ 4720 5760
+NoConn ~ 4720 5960
+NoConn ~ 4720 6160
+NoConn ~ 4170 6060
+NoConn ~ 4170 5860
+NoConn ~ 4170 5660
+NoConn ~ 2070 5960
+NoConn ~ 2070 5760
+NoConn ~ 2070 5560
+NoConn ~ 1520 6060
+NoConn ~ 1520 5860
+$Comp
+L Device:LED D1
+U 1 1 60398D0F
+P 7555 3240
+F 0 "D1" V 7502 3318 50  0000 L CNN
+F 1 "LED" V 7593 3318 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7555 3240 50  0001 C CNN
+F 3 "~" H 7555 3240 50  0001 C CNN
+	1    7555 3240
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7555 3390 7555 3540
+$Comp
+L power:GND #PWR0111
+U 1 1 603A2687
+P 7555 3540
+F 0 "#PWR0111" H 7555 3290 50  0001 C CNN
+F 1 "GND" H 7560 3367 50  0000 C CNN
+F 2 "" H 7555 3540 50  0001 C CNN
+F 3 "" H 7555 3540 50  0001 C CNN
+	1    7555 3540
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 603A2C1F
+P 7555 2850
+F 0 "R2" H 7625 2896 50  0000 L CNN
+F 1 "220" H 7625 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7485 2850 50  0001 C CNN
+F 3 "~" H 7555 2850 50  0001 C CNN
+	1    7555 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7555 3090 7555 3000
+Wire Wire Line
+	7555 2700 7555 2455
+Wire Wire Line
+	7555 2455 7440 2455
+Text GLabel 8285 2415 0    50   Input ~ 0
+IO25
+$Comp
+L Device:LED D2
+U 1 1 603AF8FC
+P 8400 3200
+F 0 "D2" V 8347 3278 50  0000 L CNN
+F 1 "LED" V 8438 3278 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 8400 3200 50  0001 C CNN
+F 3 "~" H 8400 3200 50  0001 C CNN
+	1    8400 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 3350 8400 3500
+$Comp
+L power:GND #PWR0112
+U 1 1 603AF903
+P 8400 3500
+F 0 "#PWR0112" H 8400 3250 50  0001 C CNN
+F 1 "GND" H 8405 3327 50  0000 C CNN
+F 2 "" H 8400 3500 50  0001 C CNN
+F 3 "" H 8400 3500 50  0001 C CNN
+	1    8400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 603AF909
+P 8400 2810
+F 0 "R3" H 8470 2856 50  0000 L CNN
+F 1 "220" H 8470 2765 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8330 2810 50  0001 C CNN
+F 3 "~" H 8400 2810 50  0001 C CNN
+	1    8400 2810
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 3050 8400 2960
+Wire Wire Line
+	8400 2660 8400 2415
+Wire Wire Line
+	8400 2415 8285 2415
+Text GLabel 9085 2415 0    50   Input ~ 0
+IO26
+$Comp
+L Device:LED D3
+U 1 1 603B28B6
+P 9200 3200
+F 0 "D3" V 9147 3278 50  0000 L CNN
+F 1 "LED" V 9238 3278 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 9200 3200 50  0001 C CNN
+F 3 "~" H 9200 3200 50  0001 C CNN
+	1    9200 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9200 3350 9200 3500
+$Comp
+L power:GND #PWR0113
+U 1 1 603B28BD
+P 9200 3500
+F 0 "#PWR0113" H 9200 3250 50  0001 C CNN
+F 1 "GND" H 9205 3327 50  0000 C CNN
+F 2 "" H 9200 3500 50  0001 C CNN
+F 3 "" H 9200 3500 50  0001 C CNN
+	1    9200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 603B28C3
+P 9200 2810
+F 0 "R4" H 9270 2856 50  0000 L CNN
+F 1 "220" H 9270 2765 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9130 2810 50  0001 C CNN
+F 3 "~" H 9200 2810 50  0001 C CNN
+	1    9200 2810
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 3050 9200 2960
+Wire Wire Line
+	9200 2660 9200 2415
+Wire Wire Line
+	9200 2415 9085 2415
+Text GLabel 9860 2390 0    50   Input ~ 0
+IO27
+$Comp
+L Device:LED D4
+U 1 1 603B53BB
+P 9975 3175
+F 0 "D4" V 9922 3253 50  0000 L CNN
+F 1 "LED" V 10013 3253 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 9975 3175 50  0001 C CNN
+F 3 "~" H 9975 3175 50  0001 C CNN
+	1    9975 3175
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9975 3325 9975 3475
+$Comp
+L power:GND #PWR0114
+U 1 1 603B53C2
+P 9975 3475
+F 0 "#PWR0114" H 9975 3225 50  0001 C CNN
+F 1 "GND" H 9980 3302 50  0000 C CNN
+F 2 "" H 9975 3475 50  0001 C CNN
+F 3 "" H 9975 3475 50  0001 C CNN
+	1    9975 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 603B53C8
+P 9975 2785
+F 0 "R5" H 10045 2831 50  0000 L CNN
+F 1 "220" H 10045 2740 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9905 2785 50  0001 C CNN
+F 3 "~" H 9975 2785 50  0001 C CNN
+	1    9975 2785
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9975 3025 9975 2935
+Wire Wire Line
+	9975 2635 9975 2390
+Wire Wire Line
+	9975 2390 9860 2390
+NoConn ~ 2070 5460
+NoConn ~ 1520 5760
+NoConn ~ 2070 6060
+NoConn ~ 1520 5460
+NoConn ~ 1520 5560
+NoConn ~ 1520 5960
+NoConn ~ 2070 5860
+NoConn ~ 1515 2790
+NoConn ~ 2065 2890
+NoConn ~ 2065 3090
+NoConn ~ 2065 3290
+NoConn ~ 2065 3390
+NoConn ~ 1515 3190
+NoConn ~ 1515 3390
+NoConn ~ 4160 2695
+NoConn ~ 4160 2795
+NoConn ~ 4160 2995
+NoConn ~ 4160 3195
+NoConn ~ 4710 3295
+NoConn ~ 4710 3095
+NoConn ~ 4710 2895
+NoConn ~ 4710 2695
+NoConn ~ 4720 5460
+NoConn ~ 4720 5660
+NoConn ~ 4720 5860
+NoConn ~ 4720 6060
+NoConn ~ 4170 6160
+NoConn ~ 4170 5960
+NoConn ~ 4170 5760
+NoConn ~ 4170 5560
+NoConn ~ 4170 5460
+NoConn ~ 2065 2690
+NoConn ~ 1515 2990
+NoConn ~ 4160 3395
+NoConn ~ 2070 5660
+NoConn ~ 2070 6160
+Text Notes 1025 1350 0    98   ~ 0
+M1 - BTN v1.0
+Text Notes 7030 5695 0    50   ~ 0
+Copyright CERN 2020.\nThis source describes Open Hardware and is licensed under the CERN-OHLW v2\nYou may redistribute and modify this documentation and make products\nusing it under the terms of the CERN-OHL-W v2 (https:/cern.ch/cern-ohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY\nAND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2\nfor applicable conditions.\nSource location: https://www.ohwr.org/project/wr-switch-hw\nAs per CERN-OHL-W v2 section 4.1, should You produce hardware based on\nthese sources, You must maintain the Source Location visible on the\nexternal case of the White Rabbit switch or other product you make using\nthis documentation.\n\nDESIGNED BY SALVATORE RACCARDI
+Text Notes 2500 4450 0    79   ~ 0
+Socket\nOBJEX LINK rev1.0
+$EndSCHEMATC
