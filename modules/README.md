@@ -5,7 +5,6 @@
 Modules are an essential element of OBJEX Link. In fact, they are the modules that allow OBJEX Link to detect the temperature, control an motor etc - *(like Arduino shields but smaller and more compact)*.
 
 **Here are some features/components you can add with modules:**
-
 - Sensors
 - Relay 
 - Motor driver(Stepper Motor, DC, LRA, ERM).
