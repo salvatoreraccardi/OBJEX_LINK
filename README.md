@@ -1,4 +1,4 @@
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/OBJEX-LINK_logo.png)
+![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/OBJEX-LINK_logov2.png)
 # OBJEX Link 
 
 This project was developed by [Salvatore Raccardi](https://www.instagram.com/salvatore.raccardi/)
