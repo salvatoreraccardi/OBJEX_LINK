@@ -6,6 +6,7 @@ This project was developed by [Salvatore Raccardi](https://www.instagram.com/sal
 Email: info@salvatoreraccardi.com  
 
 *Youtube:* <br />
+Assembly and testing - **OBJEX Link v1.5:** [watch the video](https://www.youtube.com/watch?v=wx3dR2j1C28)
 Assembly and testing - **OBJEX Link v1.0:** [watch the video](https://www.youtube.com/watch?v=_4CofqktS38)
 
 > Note: OBJEX Link is still under development, so documentation may vary over time.
@@ -15,7 +16,7 @@ OBJEX Link is a modular IoT board. Is designed for every user who needs compact 
 
 OBJEX Link is composed of a mainboard(microcontroller + WiFi and Bluetooth) and modules(Sensor, Relay, Driver, Camera, Display, etc).
 
-OBJEX Link is based on ESP32 microcontroller, to program the board you can use Arduino IDE, MicroPython, or other similar solutions.
+OBJEX Link v1.0 and v1.5 is based on ESP32-PICO-D4 microcontroller, to program the board you can use Arduino IDE, MicroPython, or other similar solutions.
 
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/1-2.jpg)
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/1.jpg)
@@ -23,16 +24,13 @@ OBJEX Link is based on ESP32 microcontroller, to program the board you can use A
 ## What I can do with OBJEX Link?
 The applications of OBJEX Link are so many, but obviously, they are limited by the number of modules available. So here's what you can currently do with the modules developed so far:
 
-+ without module 
-  + webserver
-+ sensors Module
-  + Weather station
-  + Gyroscope
-+ button Module
-  + IoT button
-+ PWM controller module
-  + led strip controller 
-  + Smart spotlight
+### IoT Button
+![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2-3.jpg)
+![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3D_2.jpg)
+![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3D_4.jpg)
+
+### Prototype application with custom socket
+![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2-2.jpg)
 
 All modules are open source so you can take inspiration from existing modules to develop modules for your projects.
 
