@@ -26,7 +26,7 @@ The applications of OBJEX Link are so many, but obviously, they are limited by t
 
 ### IoT Button
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2-3.jpg)
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3D_2.jpg)
+![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3D_3.jpg)
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3D_4.jpg)
 
 ### Prototype application with custom socket
