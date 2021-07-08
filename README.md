@@ -36,7 +36,7 @@ The applications of OBJEX Link are so many, but obviously, they are limited by t
 All modules are open source so you can take inspiration from existing modules to develop modules for your projects.
 
 ### Modules
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2-1.jpg)
+![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2-1.png)
 
 Modules are an essential element of OBJEX Link. In fact, they are the modules that allow OBJEX Link to detect the temperature, control an motor etc - *(like Arduino shields but smaller and more compact)*.
 
