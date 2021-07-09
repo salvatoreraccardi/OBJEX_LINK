@@ -7,6 +7,7 @@ Email: info@salvatoreraccardi.com
 
 *Youtube:* <br />
 Assembly and testing - **OBJEX Link v1.5:** [watch the video](https://www.youtube.com/watch?v=wx3dR2j1C28)
+
 Assembly and testing - **OBJEX Link v1.0:** [watch the video](https://www.youtube.com/watch?v=_4CofqktS38)
 
 > Note: OBJEX Link is still under development, so documentation may vary over time.
@@ -79,9 +80,9 @@ The first prototype is already up and running, several tests have been performed
 
 ## Do you want an OBJEX Link board?
 
-I will soon explain how I will distribute the first prototypes.
+The first 10 kits will be distributed in July.
 
-*Last update: 4/6/21*
+*Last update: 7/9/21*
 
 ## Sponsor
 
