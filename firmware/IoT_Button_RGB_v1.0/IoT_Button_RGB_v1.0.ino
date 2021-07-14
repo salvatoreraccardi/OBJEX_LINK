@@ -7,16 +7,22 @@
 
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
+#define btn  15
 
 void setup() {
+  pinMode(btn, INPUT);
+  
   strip.begin();          
   strip.show();           
-  strip.setBrightness(50); 
+  strip.setBrightness(0); 
 }
 
 
 void loop() {
-  rainbow(8);            
+  while(digitalRead(btn) == LOW){strip.setBrightness(0); strip.show();}
+  strip.setBrightness(50); 
+  rainbow(8);
+  strip.show();            
  
 }
 
