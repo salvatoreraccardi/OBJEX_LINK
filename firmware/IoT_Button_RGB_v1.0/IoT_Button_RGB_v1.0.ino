@@ -1,29 +1,28 @@
+RTC_DATA_ATTR int bootCount = 0;
+
 #include <Adafruit_NeoPixel.h>
-
 #define LED_PIN    23
-
 #define LED_COUNT 5
-
-
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
-#define btn  15
 
 void setup() {
-  pinMode(btn, INPUT);
-  
-  strip.begin();          
+  strip.begin(); 
+  strip.setBrightness(0);          
   strip.show();           
-  strip.setBrightness(0); 
+  
+  ++bootCount;
+  esp_sleep_enable_ext0_wakeup(GPIO_NUM_15,1);
 }
 
 
 void loop() {
-  while(digitalRead(btn) == LOW){strip.setBrightness(0); strip.show();}
   strip.setBrightness(50); 
   rainbow(8);
-  strip.show();            
- 
+  strip.show();
+  strip.setBrightness(0); 
+  strip.show();           
+  esp_deep_sleep_start();
 }
 
 
