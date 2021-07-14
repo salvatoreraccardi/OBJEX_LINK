@@ -25,11 +25,6 @@ OBJEX Link v1.0 and v1.5 are based on ESP32-PICO-D4 microcontroller, to program 
 ## What I can do with OBJEX Link?
 The applications of OBJEX Link are so many, but obviously, they are limited by the number of modules available. So here's what you can currently do with the modules developed so far:
 
-### IoT Button
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3D_1.jpg)
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2-3.jpg)
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3D_3.jpg)
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3D_4.jpg)
 
 ### Prototype application with custom socket
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2-2.jpg)
