@@ -31,48 +31,6 @@ The applications of OBJEX Link are so many, but obviously, they are limited by t
 
 All modules are open source so you can take inspiration from existing modules to develop modules for your projects.
 
-### Modules
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/2-1.png)
-
-Modules are an essential element of OBJEX Link. In fact, they are the modules that allow OBJEX Link to detect the temperature, control an motor etc - *(like Arduino shields but smaller and more compact)*.
-
-**Types of modules**
-
-There are several form formats to ensure maximum customization.
-
-| Type | Description     | Size    | PCB thickness | Connector | Connector Type | 3V3 | 5V | A |
-|------|-----------------|---------|---------------|-----------|----------------|-----|----|---|
-| M0   | Standard Module | 10x20mm | 0.8mm         | 2         |  BM28B0              |  ✓   |  ✓  | 5 |
-| M1   | Standard Module | 20x20mm | 0.8mm         | 4         |  BM28B0              |  ✓   |  ✓  | 5 |
-
-[List of available modules](https://github.com/salvatoreraccardi/OBJEX_LINK/tree/main/modules#list-of-available-modules)
-
-**SlimStack Connectors**
-
-Low profile slimstack connectors are used to connect a module to OBJEX Link. If you want to develop your first module [click here](https://github.com/salvatoreraccardi/OBJEX_LINK/tree/main/library) to download the connector library.
-
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/3.jpg)
-
-## OBJEX Link Rev1.0
-The first prototype is already up and running, several tests have been performed on the board and it is stable even after long sessions of intense use.
-
-**Features:**
-- **Size:** 24.1x24.1mm
-- **Compatible modules** 
-  * 2xM0(10x20mm)
-  * 1xM1(20x20mm)
-- **Hardware**
-  * Microcontroller([ESP32-PICO-D4](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/Docs/esp32-pico-d4_datasheet.pdf))
-  * Antenna 2.4GHz(WiFi and Bluetooth)
-  * Serial bridge(CP2104)
-  * Battery manager(MCP73833T)
-  * LDO(5V To 3V3 - MAX 1A)
-  * Slimstack connectors x4
-  * ESD Protection(VBUS, D+ and D-)
-  * USB-C Type 2.0
-  * Battery LVL sens(Resistors)
-  * USB-C status(Resistors)
-
 ## Do you want an OBJEX Link board?
 
 The first 10 kits will be distributed in July.
