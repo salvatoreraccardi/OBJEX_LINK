@@ -9,7 +9,7 @@ Assembly and testing - **OBJEX Link v1.5:** [watch the video](https://www.youtub
 
 Assembly and testing - **OBJEX Link v1.0:** [watch the video](https://www.youtube.com/watch?v=_4CofqktS38)
 
-**[OBJEX LINK WIKI]**(https://github.com/salvatoreraccardi/OBJEX_LINK/wiki)
+**[OBJEX LINK WIKI](https://github.com/salvatoreraccardi/OBJEX_LINK/wiki)**
 
 ## What is OBJEX Link?
 OBJEX Link is a modular IoT board. It is designed to develop IoT devices, which are easy to repair and reusable at the end of the device life cycle. The form factor of OBJEX Link is meant to fit several applications like(IoT button, security camera, motor driver, etc). With modules, the user can customize easily the hardware for your projects. 
