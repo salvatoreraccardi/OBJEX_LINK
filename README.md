@@ -18,8 +18,7 @@ OBJEX Link is composed of a mainboard(microcontroller + WiFi and Bluetooth) and 
 
 OBJEX Link v1.0 and v1.5 are based on ESP32-PICO-D4 microcontroller, to program the board you can use Arduino IDE, MicroPython, or other similar solutions.
 
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/1-2.jpg)
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/1.jpg)
+![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/1.png)
 
 ## What I can do with OBJEX Link?
 The applications of OBJEX Link are so many, but obviously, they are limited by the number of modules available. So here's what you can currently do with the modules developed so far:
