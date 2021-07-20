@@ -25,7 +25,7 @@ OBJEX Link v1.0 and v1.5 are based on ESP32-PICO-D4 microcontroller, to program 
 
 ## What can I do with OBJEX Link?
 
-The possible uses of OBJEX Link are endless, if you need a very compact and reliable hardware for your IoT devices, OBJEX Link is the best choice. OBJEX Link has one goal, to make the hardware in IoT devices easy to reuse. **Connecting devices is very important and exciting** to build the society of the future but **protect the environment is even more important**.
+The possible uses of OBJEX Link are endless, you can potentially use OBJEX Link for any device with the right module. If you need a very compact and reliable hardware for your IoT devices, OBJEX Link is the best choice. OBJEX Link has one goal, to make the hardware in IoT devices easy to reuse. **Connecting devices is very important and exciting** to build the society of the future but **protect the environment is even more important**.
 
 There are other solutions on the market, but few of them are designed to actually reuse the hardware. Many devices have custom hardware/pcbs so it makes it impossible to recycle it for other devices.
 
