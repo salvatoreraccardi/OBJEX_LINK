@@ -15,7 +15,7 @@ Assembly and testing - **OBJEX Link v1.0:** [watch the video](https://www.youtub
 ![alt text](https://media.giphy.com/media/dOVpV5HhJFUvPZF3In/giphy.gif)
 
 ## What is OBJEX Link?
-OBJEX Link is a modular IoT board. It is designed to develop IoT devices, which are easy to repair and reusable at the end of the device life cycle. The form factor of OBJEX Link is meant to fit several applications like(IoT button, security camera, motor driver, etc). With modules, the user can customize easily the hardware for your projects. 
+OBJEX Link is a modular IoT board, is designed for hobbyists, makers, students and can also be used in industrial applications. It is designed to develop IoT devices, which are easy to repair and reusable at the end of the device life cycle. The form factor of OBJEX Link is meant to fit several applications like(IoT button, security camera, motor driver, etc). With modules, the user can customize easily the hardware for your projects. 
 
 OBJEX Link is composed of a mainboard(microcontroller + WiFi and Bluetooth) and modules(Sensor, Relay, Driver, Camera, Display, etc).
 
@@ -30,6 +30,8 @@ The possible uses of OBJEX Link are endless, you can potentially use OBJEX Link 
 OBJEX Link has one goal, to make the hardware in IoT devices easy to reuse. **Connecting devices is very important and exciting** to build the society of the future but **protect the environment is even more important**.
 
 There are other solutions on the market, but few of them are designed to actually reuse the hardware. Many devices have custom hardware/pcbs so it makes it impossible to recycle it for other devices.
+
+For more information on the project see the **[Wiki](https://github.com/salvatoreraccardi/OBJEX_LINK/wiki)**.
 
 ## Do you want an OBJEX Link board?
 
