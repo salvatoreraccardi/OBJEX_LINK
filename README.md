@@ -2,7 +2,8 @@
 # OBJEX Link 
 
 This project was developed by [Salvatore Raccardi](https://www.instagram.com/salvatore.raccardi/)
-Email: info@salvatoreraccardi.com  
+
+email: info@salvatoreraccardi.com  
 
 *Youtube:* <br />
 Assembly and testing - **OBJEX Link v1.5:** [watch the video](https://www.youtube.com/watch?v=wx3dR2j1C28)
@@ -21,6 +22,10 @@ OBJEX Link is composed of a mainboard(microcontroller + WiFi and Bluetooth) and 
 OBJEX Link v1.0 and v1.5 are based on ESP32-PICO-D4 microcontroller, to program the board you can use Arduino IDE, MicroPython, or other similar solutions.
 
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/1.png)
+
+## What can I do with OBJEX Link?
+
+The possible uses of OBJEX Link are endless, if you need a very compact and reliable hardware for your IoT devices, OBJEX Link is the best choice. OBJEX Link has one goal, to make the hardware in IoT devices easy to reuse. Connecting devices is very important to build the society of the future but respecting the environment is even more important.
 
 ## Do you want an OBJEX Link board?
 
