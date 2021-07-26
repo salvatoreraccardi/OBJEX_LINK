@@ -1,3 +1,4 @@
+#define BUTTON_PIN_BITMASK 0x8004
 RTC_DATA_ATTR int bootCount = 0;
 
 #include <Adafruit_NeoPixel.h>
@@ -12,19 +13,29 @@ void setup() {
   strip.show();           
   
   ++bootCount;
-  esp_sleep_enable_ext0_wakeup(GPIO_NUM_15,1);
+  //esp_sleep_enable_ext0_wakeup(GPIO_NUM_15,1);
+  esp_sleep_enable_ext1_wakeup(BUTTON_PIN_BITMASK,ESP_EXT1_WAKEUP_ANY_HIGH);
+
 }
 
 
 void loop() {
   strip.setBrightness(50); 
-  rainbow(8);
+  //rainbow(8);
+  color(250);
   strip.show();
   strip.setBrightness(0); 
   strip.show();           
   esp_deep_sleep_start();
 }
 
+void color(int wait){
+  for(int i = 0; i < strip.numPixels(); i++){
+     strip.setPixelColor(i, 0, 255, 0);
+     strip.show();
+     delay(wait); 
+  }
+}
 
 void rainbow(int wait) { 
   for(long firstPixelHue = 0; firstPixelHue < 5*65536; firstPixelHue += 256) {
