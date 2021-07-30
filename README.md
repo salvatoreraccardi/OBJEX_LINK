@@ -21,7 +21,7 @@ The form factor of OBJEX Link is meant to fit several applications like(IoT butt
 
 OBJEX Link is composed of a mainboard(microcontroller + WiFi and Bluetooth) and modules(Sensor, Relay, Driver, Camera, Display, etc).
 
-OBJEX Link v1.0 and v1.5 are based on ESP32-PICO-D4 microcontroller, to program the board you can use Arduino IDE, MicroPython, or other similar solutions.
+OBJEX Link v1.0 and v1.5 are based on ESP32-PICO-D4 microcontroller, to program the board you can use Arduino IDE or other similar solutions.
 
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/1.png)
 
