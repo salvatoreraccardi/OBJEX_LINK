@@ -37,9 +37,9 @@ For more information on the project see the **[Wiki](https://github.com/salvator
 
 ## Do you want an OBJEX Link board?
 
-The first 10 kits will be distributed in July.
+The first 6 kits will be distributed on August 5.
 
-*Last update: 7/19/21*
+*Last update: 7/30/21*
 
 ## Sponsor
 
