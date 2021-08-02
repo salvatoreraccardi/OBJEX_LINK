@@ -43,7 +43,7 @@ No. The main differences between OBJEX Link and other boards on the market are:
 Develop reusable hardware for heterogeneous internet-connected objects, that are easy to install, repair and recycle.
    
 **Modularity** <br />
-Hardware easy to install and reuse on different applications, easy to recycle at the end of the device life cycle.
+Hardware designed for different applications, easy to recycle at the end of the device life cycle.
 
 **Design** <br />
 Compact, lightweight and suitable for use in several applications.
