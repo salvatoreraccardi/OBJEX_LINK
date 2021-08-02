@@ -40,7 +40,7 @@ For more information on the project see the **[Wiki](https://github.com/salvator
 No. The main differences between OBJEX Link and other boards on the market are:
 
 **Purpose** <br />
-Develop reusable hardware with the goal of easily connecting heterogeneous objects and recycling the hardware at the end of the device's life cycle.
+Develop reusable hardware for heterogeneous internet-connected objects, that are easy to install, repair and recycle. . 
    
 **Modularity** <br />
 Hardware easy to install and reuse on different applications, easy to recycle at the end of the device life cycle.
