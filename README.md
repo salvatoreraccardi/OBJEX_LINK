@@ -48,7 +48,7 @@ Hardware designed for different applications, easy to recycle at the end of the 
 **Design** <br />
 Compact, lightweight and suitable for use in several applications.
 
-_OBJEX Link can also be used for simple prototyping as is commonly done with other boards on the market._ 
+> _OBJEX Link can also be used for simple prototyping as is commonly done with other boards on the market._ 
    
 ## Do you want an OBJEX Link board?
 
