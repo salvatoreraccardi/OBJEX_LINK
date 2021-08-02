@@ -35,6 +35,16 @@ There are other solutions on the market, but few of them are designed to actuall
 
 For more information on the project see the **[Wiki](https://github.com/salvatoreraccardi/OBJEX_LINK/wiki)**.
 
+## OBJEX Link is the new Arduino, nodeMCU, M5stack?
+
+No. The main differences between OBJEX Link and other boards on the market are:
+1. Purpose
+   Develop reusable hardware with the goal of easily connecting heterogeneous objects and recycling the hardware at the end of the device's life cycle.
+3. Modularity
+   Hardware that is easy to install and reuse on different devices and most importantly, easy to recycle.
+5. Design
+   Compact, lightweight and suitable for use in several applications.
+   
 ## Do you want an OBJEX Link board?
 
 The first 6 kits will be distributed on August 5.
