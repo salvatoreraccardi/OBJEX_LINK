@@ -52,9 +52,7 @@ Compact, lightweight and suitable for use in several applications.
    
 ## Do you want an OBJEX Link board?
 
-The first 6 kits will be distributed on August 5.
-
-*Last update: 7/30/21*
+[**BUY NOW**](https://www.tindie.com/products/objex/objex-link-rev15/)
 
 ## Sponsor
 
