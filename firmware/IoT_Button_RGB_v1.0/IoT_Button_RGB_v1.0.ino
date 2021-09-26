@@ -1,5 +1,4 @@
 RTC_DATA_ATTR int boot = 0;
-
 #include <Adafruit_NeoPixel.h>
 #define LED_PIN    23
 #define LED_COUNT 5
@@ -19,7 +18,7 @@ void setup() {
 
 
 void loop() {  
-  rgb(250);          
+  rgb(250);   
   esp_deep_sleep_start();
 }
 
