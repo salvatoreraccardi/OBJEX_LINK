@@ -1,0 +1,6 @@
+Reference, Quantity, Value, Footprint, Datasheet
+D1 D2 D3 D4 ,4,"LED","LED_SMD:LED_0603_1608Metric","~"
+J1 J3 J2 J4 ,4,"BM28B0.6-16DP_2-0.35V(51)","Connector_Hirose:BM28B0.6-16DP-2-0.35V(51)",""
+R1 ,1,"1K","Resistor_SMD:R_0603_1608Metric","~"
+R2 R3 R4 R5 ,4,"220","Resistor_SMD:R_0603_1608Metric","~"
+SW1 ,1,"SW_Push","Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR","~"
