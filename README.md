@@ -7,6 +7,8 @@
 
 This project was developed by [Salvatore Raccardi](https://www.instagram.com/salvatore.raccardi/)
 
+Most of the PCBs were provided by [PCBWay](https://www.pcbway.com/)
+
 email: info@salvatoreraccardi.com  
 
 *Youtube:* <br />
@@ -27,7 +29,3 @@ It is also perfect for **rapid prototyping**, **advanced research projects**, an
 The compact form factor and board design ensure easy use and maintenance of the board. The architecture of OBJEX Link is composed of two parts, the first is the mainboard (OBJEX Link) and the second is the module allows for easy customization and interfacing with hardware compared to other IoT boards.
 
 ![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/1.png)
-
-## Sponsor
-All PCBs were supplied by [PCBWay](https://www.pcbway.com/).
-![alt text](https://github.com/salvatoreraccardi/OBJEX_LINK/blob/main/dir/pcbway.png)
