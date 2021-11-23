@@ -7,8 +7,8 @@ RTC_DATA_ATTR int bootCount = 0;
 #include "ClosedCube_HDC1080.h"
 #define battery  34
 
-const char* ssid = "Raccardi";   
-const char* password = "raccardi2016";   
+const char* ssid = "";   
+const char* password = "";   
 
 WiFiClient  client;
 ClosedCube_HDC1080 hdc1080;
