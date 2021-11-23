@@ -1,33 +1,31 @@
-#define uS_TO_S_FACTOR 1000000    //uS to Sec
-#define TIME_TO_SLEEP  300        // 300sec->5min
-RTC_DATA_ATTR int bootCount = 0;
+RTC_DATA_ATTR int bootCount = 0;                      // for deepsleep
 
 #include <WiFi.h>
 #include "ThingSpeak.h"
 #include "ClosedCube_HDC1080.h"
-#define battery  34
+#define battery  34                                   // Batt+ -> Voltage divider -> GPIO36
 
-const char* ssid = "";   
-const char* password = "";   
+const char* ssid = "";                                // WIFI_SSID 
+const char* password = "";                            // WIFI_PASS 
 
 WiFiClient  client;
 ClosedCube_HDC1080 hdc1080;
 
-unsigned long myChannelNumber = 1;
-const char * myWriteAPIKey = "";
+unsigned long myChannelNumber = 1;                     // ThingSpeak Channel number
+const char * myWriteAPIKey = "";                       // ThingSpeak API Key
 
 float temperatureC, humidity;
 float batteryLVL;
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(115200);                                 // Start serial
   
-  ++bootCount;
-  esp_sleep_enable_timer_wakeup(TIME_TO_SLEEP * uS_TO_S_FACTOR);
-  //hdc1080.beginCustom(0x40, 18, 19);
-  hdc1080.begin(0x40);
+  ++bootCount;                                          // BootCount for deepsleep
+  esp_sleep_enable_timer_wakeup(300 * 1000000);         // 300sec->5min
+  //hdc1080.beginCustom(0x40, 18, 19);                  // ONLY FOR OBJEX Link v1.6-C3 RISCV
+  hdc1080.begin(0x40);                                  // OBJEX Link v1.0/1.5/1.6
 
-  WiFi.mode(WIFI_STA);   
+  WiFi.mode(WIFI_STA);                                  // WiFi
   WiFi.begin(ssid, password); 
   while(WiFi.status() != WL_CONNECTED){  
     Serial.print(".");
@@ -37,18 +35,16 @@ void setup() {
   Serial.print("Connected to ");
   Serial.println(ssid);
   
-  ThingSpeak.begin(client);  // Init ThingSpeak
+  ThingSpeak.begin(client);                              // Init thingspeak
 
   pinMode(battery, INPUT);
 }
 
 void loop() {
-  if ((millis() - lastTime) > timerDelay) {
 
-    // Get a new temperature reading
     temperatureC = hdc1080.readTemperature();
     humidity = hdc1080.readHumidity();
-    batteryLVL = (analogRead(battery) / (4096 / 3.3)) / 0.5; //(analogRead(battery) / (4096 / 3.7??)) / 0.5;
+    batteryLVL = (analogRead(battery) / (4096 / 3.7)) / 0.5; // ADC Value --> voltage
     
     Serial.print("Temperature (ºC)");
     Serial.println(temperatureC);
@@ -69,10 +65,8 @@ void loop() {
     else{
       Serial.println("Problem updating channel. HTTP error code " + String(x));
     }
-    lastTime = millis();
-  }
   
-  Serial.println("Going to sleep now!");
+  Serial.println("OBJEX Link - Sleep now!");
   Serial.flush(); 
   esp_deep_sleep_start();
 }
