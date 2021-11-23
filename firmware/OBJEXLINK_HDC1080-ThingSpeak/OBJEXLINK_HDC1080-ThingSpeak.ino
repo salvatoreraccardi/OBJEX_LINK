@@ -14,7 +14,7 @@ WiFiClient  client;
 ClosedCube_HDC1080 hdc1080;
 
 unsigned long myChannelNumber = 1;
-const char * myWriteAPIKey = "TO4UJ7F786QVIQCG";
+const char * myWriteAPIKey = "";
 
 float temperatureC, humidity;
 float batteryLVL;
