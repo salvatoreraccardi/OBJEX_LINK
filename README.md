@@ -16,7 +16,9 @@ email: info@salvatoreraccardi.com
 *Youtube:* <br />
 Assembly and testing - **Protoboard&Socket_v2.0** [watch the video](https://www.youtube.com/watch?v=N7MFNUX0_PA)
 
-Assembly and testing - **OBJEX Link v1.6:** [watch the video](https://www.youtube.com/watch?v=o9e5-9o4egI)
+Assembly and testing - **OBJEX Link v1.6-C3:** [watch the video](https://www.youtube.com/watch?v=o9e5-9o4egI)
+
+Assembly and testing - **OBJEX Link v1.6:** [watch the video](https://www.youtube.com/watch?v=haHsvLIlmms)
 
 Assembly and testing - **OBJEX Link v1.5:** [watch the video](https://www.youtube.com/watch?v=wx3dR2j1C28)
 
