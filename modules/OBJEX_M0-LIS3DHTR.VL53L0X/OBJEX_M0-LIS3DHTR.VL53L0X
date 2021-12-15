@@ -1,0 +1,5 @@
+Reference, Quantity, Value, Footprint, Datasheet
+C1 ,1,"0.1uF","Capacitor_SMD:C_0603_1608Metric","~"
+J1 J3 ,2,"BM28B0.6-16DP_2-0.35V(51)","Connector_Hirose:BM28B0.6-16DP-2-0.35V(51)",""
+R1 R2 ,2,"10K","Resistor_SMD:R_0603_1608Metric","~"
+U1 ,1,"HDC1080","Package_SON:Texas_PWSON-N6","http://www.ti.com/lit/ds/symlink/hdc1080.pdf"
