@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name OBJEX_M1E-BTN-rescue)(type Legacy)(uri ${KIPRJMOD}/OBJEX_M1E-BTN-rescue.lib)(options "")(descr ""))
+)
