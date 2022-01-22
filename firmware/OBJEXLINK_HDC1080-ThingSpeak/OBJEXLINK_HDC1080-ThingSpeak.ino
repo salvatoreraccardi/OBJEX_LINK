@@ -3,16 +3,16 @@ RTC_DATA_ATTR int bootCount = 0;                      // for deepsleep
 #include <WiFi.h>
 #include "ThingSpeak.h"
 #include "ClosedCube_HDC1080.h"
-#define battery  34                                   // Batt+ -> Voltage divider -> GPIO36
+#define battery  3                                    // Batt+ -> Voltage divider -> GPIO36(v1.6) / GPIO3(v1.7-C3)
 
-const char* ssid = "";                                // WIFI_SSID 
-const char* password = "";                            // WIFI_PASS 
+const char* ssid = "Raccardi";                        // WIFI_SSID 
+const char* password = "raccardi2016";                // WIFI_PASS 
 
 WiFiClient  client;
 ClosedCube_HDC1080 hdc1080;
 
 unsigned long myChannelNumber = 1;                     // ThingSpeak Channel number
-const char * myWriteAPIKey = "";                       // ThingSpeak API Key
+const char * myWriteAPIKey = "KB9JMEVB4GJPMNED";       // ThingSpeak API Key
 
 float temperatureC, humidity;
 float batteryLVL;
@@ -22,8 +22,9 @@ void setup() {
   
   ++bootCount;                                          // BootCount for deepsleep
   esp_sleep_enable_timer_wakeup(300 * 1000000);         // 300sec->5min
+  hdc1080.beginCustom(0x40, 20, 21);                    // ONLY FOR OBJEX Link v1.7-C3 RISCV
   //hdc1080.beginCustom(0x40, 18, 19);                  // ONLY FOR OBJEX Link v1.6-C3 RISCV
-  hdc1080.begin(0x40);                                  // OBJEX Link v1.0/1.5/1.6
+  //hdc1080.begin(0x40);                                  // OBJEX Link v1.0/1.5/1.6
 
   WiFi.mode(WIFI_STA);                                  // WiFi
   WiFi.begin(ssid, password); 
