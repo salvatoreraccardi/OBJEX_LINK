@@ -9,7 +9,7 @@
 
 **OBJEX Link Shop:** https://www.tindie.com/stores/objex/
 
-<a href="https://www.tindie.com/stores/objex/?ref=offsite_badges&utm_source=sellers_OBJEX&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
+<a href="https://www.tindie.com/stores/objex/?ref=offsite_badges&utm_source=sellers_OBJEX&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104" marginLeft="-10"></a>
 
 ![alt text](https://media.giphy.com/media/dOVpV5HhJFUvPZF3In/giphy.gif)
 
