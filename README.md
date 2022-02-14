@@ -7,11 +7,13 @@
 
 **OBJEX Link Shop:** https://www.tindie.com/stores/objex/
 
+<a href="https://www.tindie.com/stores/objex/?ref=offsite_badges&utm_source=sellers_OBJEX&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
+
 This project was developed by [Salvatore Raccardi](https://www.instagram.com/salvatore.raccardi/)
 
 Most of the PCBs were provided by [PCBWay](https://www.pcbway.com/)
 
-email: info@salvatoreraccardi.com  
+email: info@objex.link 
 
 *Youtube:* <br />
 Project introduction - **OBJEX Link** [watch the video](https://www.youtube.com/watch?v=X29LyX-1ozA)
