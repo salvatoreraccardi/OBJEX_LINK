@@ -5,17 +5,15 @@
 
 **OBJEX Link Docs:** https://docs.objex.link/
 
+**email:** info@objex.link 
+
 **OBJEX Link Shop:** https://www.tindie.com/stores/objex/
 
 <a href="https://www.tindie.com/stores/objex/?ref=offsite_badges&utm_source=sellers_OBJEX&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
 
-This project was developed by [Salvatore Raccardi](https://www.instagram.com/salvatore.raccardi/)
+![alt text](https://media.giphy.com/media/dOVpV5HhJFUvPZF3In/giphy.gif)
 
-Most of the PCBs were provided by [PCBWay](https://www.pcbway.com/)
-
-email: info@objex.link 
-
-*Youtube:* <br />
+**Youtube:** <br />
 Project introduction - **OBJEX Link** [watch the video](https://www.youtube.com/watch?v=X29LyX-1ozA)
 
 Assembly and testing - **Protoboard&Socket_v2.0** [watch the video](https://www.youtube.com/watch?v=N7MFNUX0_PA)
@@ -27,8 +25,6 @@ Assembly and testing - **OBJEX Link v1.6:** [watch the video](https://www.youtub
 Assembly and testing - **OBJEX Link v1.5:** [watch the video](https://www.youtube.com/watch?v=wx3dR2j1C28)
 
 Assembly and testing - **OBJEX Link v1.0:** [watch the video](https://www.youtube.com/watch?v=_4CofqktS38)
-
-![alt text](https://media.giphy.com/media/dOVpV5HhJFUvPZF3In/giphy.gif)
 
 ## What is OBJEX Link?
 OBJEX Link is a modular IoT board. It is designed to develop **IoT devices** that are **easy to repair** and **recycle**. OBJEX Link is designed to meet a wide range of uses: **Smart Home & Cities, IIOT, Everyday things & Wearables, Predictive Maintenance, Agriculture Automation.**
