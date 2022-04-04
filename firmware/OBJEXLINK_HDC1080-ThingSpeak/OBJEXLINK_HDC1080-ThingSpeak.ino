@@ -1,9 +1,9 @@
 RTC_DATA_ATTR int bootCount = 0;                      // for deepsleep
-
+#include <driver/adc.h>
+#include <EEPROM.h>
 #include <WiFi.h>
 #include "ThingSpeak.h"
 #include "ClosedCube_HDC1080.h"
-#define battery  3                                    // Batt+ -> Voltage divider -> GPIO36(v1.6) / GPIO3(v1.7-C3)
 
 const char* ssid = "Raccardi";                        // WIFI_SSID 
 const char* password = "raccardi2016";                // WIFI_PASS 
@@ -19,12 +19,27 @@ float batteryLVL;
 
 void setup() {
   Serial.begin(115200);                                 // Start serial
+  EEPROM.begin(1);
+  adc1_config_width(ADC_WIDTH_BIT_12);
+  adc1_config_channel_atten(ADC1_CHANNEL_0, ADC_ATTEN_DB_11);
+  adc1_config_channel_atten(ADC1_CHANNEL_3, ADC_ATTEN_DB_11);
+  adc1_config_channel_atten(ADC1_CHANNEL_4, ADC_ATTEN_DB_11);
   
   ++bootCount;                                          // BootCount for deepsleep
-  esp_sleep_enable_timer_wakeup(300 * 1000000);         // 300sec->5min
+  esp_sleep_enable_timer_wakeup(900 * 1000000);         // 300sec->5min
   hdc1080.beginCustom(0x40, 20, 21);                    // ONLY FOR OBJEX Link v1.7-C3 RISCV
   //hdc1080.beginCustom(0x40, 18, 19);                  // ONLY FOR OBJEX Link v1.6-C3 RISCV
   //hdc1080.begin(0x40);                                  // OBJEX Link v1.0/1.5/1.6
+
+  // every 12h -> auto restart
+  if(EEPROM.read(0) < 48){
+    EEPROM.write(0, EEPROM.read(0) + 1);
+    EEPROM.commit();
+  }else{
+    EEPROM.write(0, 1);
+    EEPROM.commit();
+    ESP.restart();
+  }
 
   WiFi.mode(WIFI_STA);                                  // WiFi
   WiFi.begin(ssid, password); 
@@ -37,15 +52,15 @@ void setup() {
   Serial.println(ssid);
   
   ThingSpeak.begin(client);                              // Init thingspeak
-
-  pinMode(battery, INPUT);
 }
 
 void loop() {
 
     temperatureC = hdc1080.readTemperature();
     humidity = hdc1080.readHumidity();
-    batteryLVL = (analogRead(battery) / (4096 / 3.7)) / 0.5; // ADC Value --> voltage
+    
+    int battery = adc1_get_raw((adc1_channel_t)3);
+    batteryLVL = (battery / (4096 / 3.7)) / 0.64; // ADC Value --> voltage
     
     Serial.print("Temperature (ºC)");
     Serial.println(temperatureC);
